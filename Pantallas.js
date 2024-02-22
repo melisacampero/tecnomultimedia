@@ -51,14 +51,17 @@ class LasPantallas {
       this.labase("EL LOBO HABRÍA CONSEGUIDO DESARMAR LA CASA ENTERA APENAS CON UN POCO MAS DE ESFUERZO EN SU SOPLIDO", this.foto[7]);
       this.boton.dibujar("morir",50,50);
       this.boton.dibujar("correr",550,550);
+      
       if(this.juegoSet){
           image(this.instrucciones, 0, 0);
           this.juegoo.juegoSetUp();
           this.boton.dibujar("jugar",width/2,height/2+140);
         }
       else if(this.juegoActivo){
+        
         this.juegoo.juegoEventos();
         this.juegoo.dibujar();
+        
         if (this.juegoo.perdiste) {
           this.juegoActivo = false;
             this.pantallas  = 15;
