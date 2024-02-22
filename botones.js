@@ -1,4 +1,4 @@
-// izquierdo 0,0  derecho 500,540
+
 class boton {
   constructor() {
     this.al = 100;
