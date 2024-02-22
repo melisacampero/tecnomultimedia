@@ -134,6 +134,7 @@ class LasPantallas {
     } else if (this.pantallas == 6 && this.boton.areaBoton(50,50)) { //izquierdo
         this.pantallas = 15;  
     } else if (this.pantallas == 6) {
+      
       if (mouseX >= 250 && mouseX <= 350 && mouseY >= 410 && mouseY <= 450) {
         this.juegoSet = false;
         this.juegoActivo = true;
