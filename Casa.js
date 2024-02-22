@@ -7,11 +7,6 @@ class Casa {
         this.radioApertura = 70;
     }
 
-    // reset() {
-    //     this.posX = width;
-    //     this.posApertura = random(30, height - 30);
-    // }
-
     dibujar() {
         image(casa1, this.posX, this.posApertura);
     }
